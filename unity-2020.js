@@ -317,11 +317,8 @@ d.innerHTML = `
     var m = i("progress-spinner");
     m.innerHTML = '<div class="bounce0"></div><div class="bounce1"></div><div class="bounce2">',
     m.setAttribute("class", "spinner");
-    var p = i("progress-container")
     w.style.width = "0%";
-    var v = i("progress-amount");
     v.innerText = "0%";
-    var y = i("progress-comment");
     y.innerText = "Loading";
     var b = i("slideshow-images")
       , x = i("slideshow-nav")
